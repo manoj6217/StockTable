@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StocksUpdateDBModelStoreContainer" CdmEntityContainer="StocksUpdateDBEntities">
+    <EntitySetMapping Name="Mst_Stocks">
+      <EntityTypeMapping TypeName="StocksUpdateDBModel.Mst_Stocks">
+        <MappingFragment StoreEntitySet="Mst_Stocks">
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="Change" ColumnName="Change" />
+          <ScalarProperty Name="StockId" ColumnName="StockId" />
+          <ScalarProperty Name="StockSymbol" ColumnName="StockSymbol" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
